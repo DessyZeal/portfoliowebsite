@@ -1,1 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito";
+}
+.container {
+    width: 90%;
+    max-width: 1440px;
+    margin: auto;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 3rem;
+}
+a {
+    text-decoration: none;
+    color: #BCC0D3;
+}
+
+li {
+    list-style-type: none;
+}
+
+p, a {
+    line-height: 1.6;
+    font-size: 1.5rem;
+}
+header {
+    background-color: #422B64;
+    height: 450px;
+    position: relative;
+
+}.herowave {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.herowave svg {
+    position: relative;
+    display: block;
+    width: calc(283% + 1.3px);
+    height: 154px;
+}
+
+.herowave .shape-fill {
+    fill: #422B64;
+}
