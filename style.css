@@ -20,6 +20,10 @@ a {
     text-decoration: none;
     color: #BCC0D3;
 }
+span {
+    font-weight: 800;
+    font-family: cursive;
+}
 
 li {
     list-style-type: none;
@@ -52,4 +56,8 @@ header {
 
 .herowave .shape-fill {
     fill: #422B64;
+}
+
+.greenunderline {
+    border-bottom: 2px solid #BCC0D3;
 }
