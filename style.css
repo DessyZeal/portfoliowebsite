@@ -95,3 +95,6 @@ header {
     border: 2px solid #95628D;
     background-color: #422B64;
 }
+@media screen and (max-width: 768px){
+    
+}
